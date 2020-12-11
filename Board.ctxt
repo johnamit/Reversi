@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Board
+comment1.params=
+comment1.target=Board()
+comment1.text=\r\n\ Constructor\ for\ the\ board\ class\r\n\ Constructor\ is\ used\ to\ create\ the\ board\ which\ is\ an\ 8*8\ grid\r\n\ The\ constructor\ also\ sets\ the\ initial\ 2\ black\ and\ 2\ white\ pieces\r\n\ The\ board\ is\ able\ to\ resize\ along\ with\ the\ GUI\r\n
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment2.text=\r\n\ Override\ method\ for\ the\ actionListener\r\n\ checks\ which\ button\ was\ pressed\ and\ runs\ the\ move\ method\ on\ it\r\n
+comment3.params=
+comment3.target=void\ move()
+comment3.text=\r\n\ move\ method\ checks\ which\ players\ turn\ it\ is\ and\ sets\ the\ color\ of\ the\ selected\ button/box\ to\ the\ players\ color\r\n\ Once\ a\ square\ has\ been\ selected\ and\ the\ color\ had\ changed,\ it\ cannot\ be\ changed\ again\r\n
+comment4.params=
+comment4.target=void\ capture()
+comment4.text=\r\n\ Capture\ method\ is\ used\ to\ flip\ all\ enemy\ pieces\ inbetween\ the\ players\ two\ pieces\ if\ they\ have\ been\ captured\r\n
+comment5.params=
+comment5.target=void\ isMoveLegal()
+comment5.text=\r\n\ Method\ used\ to\ check\ if\ the\ move\ can\ be\ made\r\n
+comment6.params=
+comment6.target=void\ canMove()
+comment6.text=\r\n\ Method\ used\ to\ check\ if\ there\ is\ a\ move\ that\ the\ player\ can\ make\r\n
+comment7.params=
+comment7.target=javax.swing.JPanel\ getPanel()
+comment7.text=\r\n\ getPanel\ method\ used\ to\ return\ the\ boardPanel(Game\ board),\ that\ will\ be\ used\ in\ the\ reversi\ class.\r\n
+comment8.params=
+comment8.target=java.lang.String\ getCurrentPlayer()
+numComments=9

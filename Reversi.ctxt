@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Reversi
+comment1.params=
+comment1.target=Reversi()
+comment1.text=\r\n\ Constructor\ for\ Reversi\ class\r\n\ runs\ the\ makeFrame\ method\r\n
+comment2.params=
+comment2.target=void\ makeFrame()
+comment2.text=\r\n\ makeFrame\ method\ creates\ the\ frame\r\n\ Frame\ is\ split\ into\ 3\ sections\ (Game\ board\ on\ the\ left,\ player/score\ on\ the\ right\ and\ a\ message\ at\ the\ bottom)\r\n\ A\ menu\ bar\ is\ created\ that\ allows\ the\ player\ to\ start\ a\ new\ game,\ quit\ the\ current\ game,\ save\ a\ game\ [not\ working]\ or\ open\ a\ saved\ game\ [not\ working]\r\n
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.params=e
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=
+comment5.target=void\ makePlayerPanel()
+comment5.text=\r\n\ makePlayerPanel\ method\ creates\ the\ player/score\ panel\r\n\ It\ includes\ input\ fields\ for\ both\ players\ names,\ and\ a\ counter\ for\ each\ players\ scores\ and\ no\ of\ disks.\r\n\ There\ is\ validation\ for\ the\ name\ inputs\r\n
+comment6.params=e
+comment6.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=7
